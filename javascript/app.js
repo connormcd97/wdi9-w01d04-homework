@@ -52,11 +52,8 @@ const checkPrime=(optimus)=>{
   for (let i = 2; i<=Math.sqrt(optimus); i++) {
 
     if(optimus%i==0){
-
       return false;
     }
-
-
 
   }
   return true;
