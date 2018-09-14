@@ -63,11 +63,12 @@ const checkPrime=(optimus)=>{
 }
 console.log(checkPrime(89));
 const printPrime=(prtprime)=>{
-  for (let i = 2; i<prtprime; i++) {
+  for (let i = 2; i<=prtprime; i++) {
 
     if(checkPrime(i)){
+
       console.log(i);
     }
   }
 }
-console.log(printPrime(100));
+printPrime(100);
