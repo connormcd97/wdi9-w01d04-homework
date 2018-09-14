@@ -68,11 +68,6 @@ const printPrime=(prtprime)=>{
     if(checkPrime(i)){
       console.log(i);
     }
-
-
-
-
   }
-
 }
 console.log(printPrime(100));
