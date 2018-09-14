@@ -13,9 +13,9 @@ const checkPalidrome=(str)=>{
 strLower=str.toLowerCase();
 
   for(let i=0;i<strLower.length/2;i++){
-    console.log(i,strLower.length/2);
+
     if((strLower.length%2!=0) && (i== Math.floor(strLower.length/2))){
-      console.log(strLower[i]);
+
       return true;
     }
     else if(strLower[i] != strLower[str.length-(i+1)]){
